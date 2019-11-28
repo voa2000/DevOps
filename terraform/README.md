@@ -2,7 +2,8 @@
 Learning how to create infrastructure as code
 
 Created a connection to aws in the connections.tf file and a VPC in the resources file.
-Useful Commands
+### Useful Commands
+
 $ terraform plan # plan
 
 $ terraform apply # shortcut for plan & apply - avoid this in production
