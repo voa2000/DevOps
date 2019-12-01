@@ -1,7 +1,7 @@
-## DevOps
+# DevOps
 Building a configuration pipeline using Packer, Jenkins, AWS, NodeJS and Terraform
 
-Packer Installation
+### Packer Installation
 ----
 *  https://www.packer.io/downloads.html    
 To install Packer on MacOS   
