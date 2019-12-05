@@ -1,9 +1,11 @@
-### Installing Jenkins on MAC OS
+# Installing Jenkins on MAC OS
 
-• This is to install the java jdk needed to run Jenkins
+• This is to install the java jdk needed to run Jenkins:- brew cask install homebrew/cask-versions/adoptopenjdk8
 
-### brew cask install homebrew/cask-versions/adoptopenjdk8
+• This is to install Jenkins:- brew install jenkins-lts
 
-• This is to install Jenkins
+• Start the Jenkins service:- brew services start jenkins-lts
 
-### brew install jenkins-lts
+• Restart the Jenkins service:- brew services restart jenkins-lts
+
+• Update the Jenkins version:- brew upgrade jenkins-lts
