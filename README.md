@@ -19,4 +19,5 @@ Building a configuration pipeline using Packer, Jenkins, AWS, NodeJS and Terrafo
 *   Subtitute aws_access_key and aws_secret_key with your own keys to build the image.
 *   Kubernates is to be used with docker using Docker for desktop or minikube or Amazon EKS.
 ### Learning Git
-*   https://learngitbranching.js.org/
+
+*  https://learngitbranching.js.org/
