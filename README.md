@@ -5,7 +5,7 @@ Building a configuration pipeline using Packer, Jenkins, AWS, NodeJS and Terrafo
 ----
 1.  Go to https://www.packer.io/downloads.html    
 2.  To install Packer on MacOS   
-3.  Go to the terminal   
+3.  Go to the terminal or iterm2  
 4.  Type in --> brew install packer 
 
 ### Below are the commands which can be used in Packer       
