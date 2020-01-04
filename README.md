@@ -15,9 +15,8 @@ Building a configuration pipeline using Packer, Jenkins, AWS, NodeJS and Terrafo
     *  validate  -    Check that a template is valid       
     *  version   -    Prints the Packer version          
 ### To create ubunto image run this .     
-*   Packer build -var "aws_access_key=key" -var "aws_secret_key=secret" ubuntu.json    
-*   Subtitute aws_access_key and aws_secret_key with your own keys to build the image.
-*   Kubernates is to be used with docker using Docker for desktop or minikube or Amazon EKS.
+1. Packer build -var "aws_access_key=key" -var "aws_secret_key=secret" ubuntu.json    
+2. Subtitute aws_access_key and aws_secret_key with your own keys to build the image.
+3.  Kubernates is to be used with docker using Docker for desktop or minikube or Amazon EKS.
 ### Learning Git
-
 *  https://learngitbranching.js.org/
