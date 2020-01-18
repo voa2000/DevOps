@@ -14,6 +14,8 @@ Building a configuration pipeline using Packer, Jenkins, AWS, NodeJS and Terrafo
     *  inspect   -    See components of a template       
     *  validate  -    Check that a template is valid       
     *  version   -    Prints the Packer version          
+### Ansible 
+
 ### To create ubunto image run this .     
 1. ```Packer build -var "aws_access_key=key" -var "aws_secret_key=secret" ubuntu.json ```   
 2. Subtitute aws_access_key and aws_secret_key with your own keys to build the image.
