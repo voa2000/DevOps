@@ -17,7 +17,8 @@ Vagrant enables users to create and configure lightweight, reproducible, and por
 To use vagrant
 
 1.  Go to https://www.vagrantup.com/
-2.  
+2.  Navigate to the downloads page and download the variant for you OS.
+3.  
 
 ### Packer Installation
 ----
