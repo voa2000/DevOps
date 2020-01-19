@@ -1,5 +1,8 @@
 # DevOps
 Building a configuration pipeline using Packer, Ansible, Jenkins, AWS, NodeJS and Terraform.
+I will be using a dev machine by building vagrant in virtualbox.
+
+### Virtual box
 
 ### Packer Installation
 ----
