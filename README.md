@@ -15,7 +15,9 @@ Vagrant is an open-source software product for building and maintaining portable
 
 Vagrant enables users to create and configure lightweight, reproducible, and portable development environments.
 To use vagrant
-1.  
+
+1.  Go to https://www.vagrantup.com/
+2.  
 
 ### Packer Installation
 ----
