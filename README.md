@@ -19,7 +19,12 @@ To use vagrant
 1.  Go to https://www.vagrantup.com/
 2.  Navigate to the downloads page and download the variant for you OS.
 3.  
-
+### Stage 3: Installing Jenkins locally
+1.  brew cask install homebrew/cask-versions/adoptopenjdk8
+2.  brew install jenkins-lts
+3.  brew services start jenkins-lts
+4.  To get your password ```cat /Users/<yourusername>/.jenkins/secrets/initialAdminPassword```
+5.  Go to localhost:8080 to access jenkins
 ### Packer Installation
 ----
 1.  Go to https://www.packer.io/downloads.html    
