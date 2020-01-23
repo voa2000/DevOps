@@ -1,4 +1,4 @@
-# DevOps
+# DevOps Engineer 
 DevOps is a set of practices that combines software development and information-technology operations which aims to shorten the systems development life cycle and provide continuous delivery with high software quality. Wikipedia
 
 I will be building a configuration pipeline using Packer, Ansible, Jenkins, AWS, NodeJS and Terraform.
