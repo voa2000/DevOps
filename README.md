@@ -28,7 +28,7 @@ To use vagrant
 ### Stage 4: Running Jenkins from Docker
 
 
-### Packer Installation
+### Stage 5: Packer Installation
 ----
 1.  Go to https://www.packer.io/downloads.html    
 2.  To install Packer on MacOS   
