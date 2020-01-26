@@ -8,7 +8,7 @@ It is good to remember these 3 golden rules, which can make your life easier:
    •   When there is some complex set up before running these actions — everything should be documented.
 
 
-# DevOps Tools
+### DevOps Tools
 DevOps is a set of practices that combines software development and information-technology operations which aims to shorten the systems development life cycle and provide continuous delivery with high software quality. Wikipedia
 
 I will be building a configuration pipeline using Packer, Ansible, Jenkins, AWS, NodeJS and Terraform.
