@@ -2,8 +2,11 @@
 It is good to remember these 3 golden rules, which can make your life easier:
 
    •   If you repeat an action more, than twice — it should be automated.
+
    •   If there are several steps to be done — they should be put in one script.
+
    •   When there is some complex set up before running these actions — everything should be documented.
+
 
 # DevOps Tools
 DevOps is a set of practices that combines software development and information-technology operations which aims to shorten the systems development life cycle and provide continuous delivery with high software quality. Wikipedia
