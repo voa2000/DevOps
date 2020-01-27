@@ -14,13 +14,13 @@ DevOps is a set of practices that combines software development and information-
 I will be building a configuration pipeline using Packer, Ansible, Jenkins, AWS, NodeJS and Terraform.
 I will be using a dev machine by building vagrant in virtualbox.
 
-### Stage 1: Virtual box
+### Virtual box
 VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL) version 2.
 
 1.  Go to https://www.virtualbox.org/
 2.  Download and install virtualbox.
 
-### Stage 2: Vagrant
+### Vagrant
 Vagrant is an open-source software product for building and maintaining portable virtual software development environments, e.g. for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS. It tries to simplify the software configuration management of virtualizations in order to increase development productivity. Wikipedia
 
 Vagrant enables users to create and configure lightweight, reproducible, and portable development environments.
@@ -29,7 +29,7 @@ To use vagrant
 1.  Go to https://www.vagrantup.com/
 2.  Navigate to the downloads page and download the variant for you OS.
 3.  
-### Stage 3: Installing Jenkins locally
+### Installing Jenkins locally
 1.  brew cask install homebrew/cask-versions/adoptopenjdk8
 2.  brew install jenkins-lts
 3.  brew services start jenkins-lts
@@ -38,7 +38,7 @@ To use vagrant
 ### Stage 4: Running Jenkins from Docker
 
 
-### Stage 5: Packer Installation
+### Packer Installation
 ----
 1.  Go to https://www.packer.io/downloads.html    
 2.  To install Packer on MacOS   
