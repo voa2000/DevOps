@@ -35,7 +35,7 @@ To use vagrant
 3.  brew services start jenkins-lts
 4.  To get your password ```cat /Users/<yourusername>/.jenkins/secrets/initialAdminPassword```
 5.  Go to localhost:8080 to access jenkins
-### Stage 4: Running Jenkins from Docker
+### Running Jenkins from Docker
 
 
 ### Packer Installation
