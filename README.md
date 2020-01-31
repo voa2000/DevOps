@@ -61,5 +61,5 @@ To use vagrant
 *  https://learngitbranching.js.org/
 ### AWS Fargate
 
-### Docker 
+### Docker swarm 
 
