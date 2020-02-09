@@ -49,7 +49,7 @@ To use vagrant
     *  build     -    Build image(s) from template       
     *  fix       -    Fixes templates from old versions of packer    
     *  inspect   -    See components of a template       
-    *  validate  -    Check that a template is valid       
+    *  validate  -    Checks that a template is valid       
     *  version   -    Prints the Packer version          
 ### Ansible 
 
