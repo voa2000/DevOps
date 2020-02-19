@@ -50,7 +50,8 @@ To use vagrant
     *  fix       -    Fixes templates from old versions of packer    
     *  inspect   -    See components of a template       
     *  validate  -    Checks that a template is valid       
-    *  version   -    Prints the Packer version          
+    *  version   -    Prints the Packer version      
+    
 ### Ansible 
 
 ### To create ubunto image run this .     
