@@ -39,7 +39,7 @@ To use vagrant
 
 ### Running Jenkins from Docker
 
-
+1.  Install
 ### Packer Installation Instructions 
 ----
 1.  Go to https://www.packer.io/downloads.html    
