@@ -1,11 +1,11 @@
 #  Golden Rules
 It is good to remember these 3 golden rules, which can make your life easier:
 
-   •   If you repeat an action more, than twice — it should be automated.
+  •   If you repeat an action more, than twice — it should be automated.
 
-   •   If there are several steps to be done — they should be put in one script.
+  •   If there are several steps to be done — they should be put in one script.
 
-   •   When there is some complex set up before running these actions — everything should be documented.
+  •   When there is some complex set up before running these actions — everything should be documented.
 
 
 ### DevOps Tools
