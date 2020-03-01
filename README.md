@@ -31,6 +31,7 @@ To use vagrant
 3.  
 
 ### Installing Jenkins locally
+
 1.  brew cask install homebrew/cask-versions/adoptopenjdk8
 2.  brew install jenkins-lts
 3.  brew services start jenkins-lts
