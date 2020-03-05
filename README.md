@@ -66,5 +66,5 @@ To use vagrant
 
 ### AWS Fargate and EKS
 
-### Docker swarm 
+### Docker Swarm 
 
