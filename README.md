@@ -36,7 +36,8 @@ To use vagrant
 1.  brew cask install homebrew/cask-versions/adoptopenjdk8
 2.  brew install jenkins-lts
 3.  brew services start jenkins-lts
-4.  To get your password ```cat /Users/<yourusername>/.jenkins/secrets/initialAdminPassword```
+4.  To get your password 
+```cat /Users/<yourusername>/.jenkins/secrets/initialAdminPassword```
 5.  Go to localhost:8080 to access jenkins
 
 ### Running Jenkins from Docker
