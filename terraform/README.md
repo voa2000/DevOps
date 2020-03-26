@@ -4,15 +4,15 @@ Learning how to create infrastructure as code
 Created a connection to aws in the connections.tf file and a VPC in the resources file.
 ### Useful Commands
 
-$ terraform plan # plan
+1 terraform plan # plan
 
-$ terraform apply # shortcut for plan & apply - avoid this in production
+2 terraform apply # shortcut for plan & apply - avoid this in production
 
-$ terraform plan -out out.terraform # terraform plan and write the plan to out file
+3 terraform plan -out out.terraform # terraform plan and write the plan to out file
 
-$ terraform apply out.terraform # apply terraform plan using out file
+4 terraform apply out.terraform # apply terraform plan using out file
 
-$ terraform show # show current state
+5 terraform show # show current state
 
 # Reference Documentation
 ### Download URL: https://www.terraform.io/downloads.html
