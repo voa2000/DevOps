@@ -42,6 +42,8 @@ To use vagrant
 
 ### Running Jenkins from Docker
 
+Create a DockerFile with an ubuntu base image and Jenkins 
+
 1.  Install
 ### Packer Installation Instructions 
 ----
