@@ -29,7 +29,6 @@ To use vagrant
 
 1.  Go to https://www.vagrantup.com/
 2.  Navigate to the downloads page and download the variant for you OS.
-3.  
 
 ### Installing Jenkins locally
 
