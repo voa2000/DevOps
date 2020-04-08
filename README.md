@@ -21,7 +21,7 @@ VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterp
 1.  Go to https://www.virtualbox.org/
 2.  Download and install virtualbox.
 
-### Vagrant installation
+### Vagrant installation loop
 Vagrant is an open-source software product for building and maintaining portable virtual software development environments, e.g. for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS. It tries to simplify the software configuration management of virtualizations in order to increase development productivity. Wikipedia
 
 Vagrant enables users to create and configure lightweight, reproducible, and portable development environments.
@@ -69,5 +69,7 @@ Create a DockerFile with an ubuntu base image and Jenkins
 
 ### AWS Fargate and EKS
 
-### Docker Swarm 
+### Docker Swarm
+
+### Redis
 
