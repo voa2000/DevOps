@@ -73,3 +73,5 @@ Create a DockerFile with an ubuntu base image and Jenkins
 
 ### Redis
 
+### ArgoCd
+https://argoproj.github.io/argo-cd/
