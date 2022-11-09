@@ -2,20 +2,20 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Clone repo') {
             steps {
                 // Get some code from a GitHub repository
                 sh "rm -rf DevOps"
                     dir('DevOps') {
         git url: 'https://github.com/voa2000/DevOps.git'
-    }
+                 }
 
-    sh('ls -lts')
-    sh('pwd')
+                    sh('ls -lts')
+                    sh('pwd')
 
-            }
+                 }
 
-        }
+                }
 
         stage('Terraform init') {
             steps {
@@ -28,21 +28,21 @@ pipeline {
 
         }
 
-        stage('Plan') {
+        stage('Terraform Plan') {
             steps {
                 sh "terraform plan"
             }
 
         }
 
-        stage('Apply') {
+        stage('Terraform Apply') {
             steps {
                 sh "terraform apply --auto-approve"
             }
 
         }
 
-         stage('Destroy') {
+         stage('Terraform Destroy') {
             steps {
                 sh "terraform destroy --auto-approve"
             }
