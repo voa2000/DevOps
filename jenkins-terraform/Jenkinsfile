@@ -12,7 +12,9 @@ pipeline {
 
         stage('Terraform init') {
             steps {
-                sh "cd ./terraform/"
+                dir("terraform") {
+                sh "pwd"
+}
                 sh "terraform init"
                 sh "ls -lts"
             }
