@@ -8,7 +8,7 @@ pipeline {
                 git 'https://github.com/voa2000/DevOps.git'
 
                 // Run Maven on a Unix agent.
-                sh "docker ps"
+               
                 sh " cd ../terraform"
                 sh "ls -lts"
 
