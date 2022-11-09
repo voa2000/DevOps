@@ -9,8 +9,8 @@ pipeline {
         git url: 'https://github.com/voa2000/DevOps.git'
     }
 
-    sh('ls')
-    sh('terraform/')
+    sh('ls -lts')
+    sh('pwd')
 
             }
 
