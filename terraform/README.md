@@ -1,5 +1,5 @@
 # Terraform
-Learning how to create infrastructure as code
+Learning how to create infrastructure as code in Jenkins
 
 Created a connection to aws in the connections.tf file and a VPC in the resources file.
 ### Useful Commands
