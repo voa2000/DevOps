@@ -5,12 +5,12 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                    dir('CombinationBuilder') {
+                    dir('DevOps') {
         git url: 'https://github.com/voa2000/DevOps.git'
     }
 
     sh('ls')
-    sh('CombinationBuilder/terraform/')
+    sh('terraform/')
 
             }
 
