@@ -5,9 +5,13 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                script {
-                        sh "git clone https://github.com/voa2000/DevOps.git"
-                    }
+                    dir('CombinationBuilder') {
+        git url: 'https://github.com/voa2000/DevOps.git'
+    }
+
+    sh('ls')
+    sh('CombinationBuilder/terraform/')
+
             }
 
         }
