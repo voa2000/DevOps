@@ -5,6 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Get some code from a GitHub repository
+                sh "rm -rf DevOps"
                     dir('DevOps') {
         git url: 'https://github.com/voa2000/DevOps.git'
     }
